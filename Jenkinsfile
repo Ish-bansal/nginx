@@ -24,11 +24,6 @@ pipeline {
 
 }
 
-#    stage('Login') {
-#      steps {
-#        sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
-#      }
-#    }
 
    stage('bulid') {
       steps {
@@ -56,9 +51,4 @@ stage('Pass image to cdbuild'){
                            }
   }
                            
-#            post {
-#    always {
-#      sh 'docker logout'
-#    }
-#  }
 }
