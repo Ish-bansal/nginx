@@ -1,7 +1,6 @@
 pipeline {
 
 
-}
   environment {
     DOCKERHUB_CREDENTIALS = credentials('dockerhub')
     REPO_NAME = "ishank004/nginx"
