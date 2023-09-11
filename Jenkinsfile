@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKERHUB_CREDENTIALS = credentials('dockerhub')
-    REPO_NAME = "ishank004/nginx"
+    REPO_NAME = "ishank006/nginx"
   }
   stages {
     stage('cloning') {
